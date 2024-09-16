@@ -86,7 +86,17 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 ```
 cat> hello.txt
 Hello world
-Check Pipe
+Operating systems
+to check pipe
+
+localhost:~# ./a.out
+ENTER THE FILE NAME :hello.txt	
+CLIENT SENDING THE REQUEST .... PLEASE WAIT
+THE RESULTS OF CLIENTS ARE ...... 
+Hello world
+Operating systems
+to check pipe
+
 ```
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
@@ -110,7 +120,6 @@ localhost:~# ./a.out
 FIFO created
 localhost:~# ls -l /tmp/my_fifo
 prwxr-xr-x    1 root     root             0 Sep 13 11:31 /tmp/my_fifo
-localhost:~#
 ```
 
 # RESULT:
